@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
+    <PackageReference Include="Isopoh.Cryptography.Argon2" Version="1.1.12" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+	<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR.Extensions.FluentValidation.AspNetCore" Version="4.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Azure.Core.NewtonsoftJson" Version="1.0.0" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.13" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.13">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.6" />
+	<PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.5.0" />
+	<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagementSystem.Application\TaskManagementSystem.Application.csproj" />
+  </ItemGroup>
+
+</Project>
